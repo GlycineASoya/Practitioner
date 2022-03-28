@@ -10,3 +10,9 @@
   * It has additional detection/mitigation of DDoS attacks
   * Barely real-time visibility
   * Integrates with AWS WAF
+* Advanced Shiled Abilities:
+  * Available Globally on all Amazon CloudFront, AWS Global Accelerator, and Amazon Route 53 edge locations
+
+## Integration
+
+* Amazone CloudFront + Amazon Route 53 - protection against all known infrastructure (Layer 3, 4) attacks

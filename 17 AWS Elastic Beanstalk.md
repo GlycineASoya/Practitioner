@@ -1,6 +1,6 @@
 # AWS Elastic Beanstalk
 
-* It's an **Application** management platform - we have an application and Beanstalk take respnsibility to manage the infrastructure from us
+* It's an **Application** management platform - we have an application and Beanstalk take responsibility to manage the infrastructure from us
 * It gives the following types of appplication:
   * Java
   * .NET
