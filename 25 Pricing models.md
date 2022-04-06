@@ -7,6 +7,12 @@
 * Includes OS licence
 * Per hour - *hour forward*
 * Per minute - minimum 60 seconds
+* Good to use if:
+  * Low cost and flexibility is required
+  * No up-front payment or long-term commitment
+  * For short-term application
+  * For spiky or unpredictable workload applications
+  * For applications, which workload cannot be interrupted
 
 ## Reserved Instances (RI) pricing
 
@@ -38,7 +44,7 @@
 * Spot instances *can be interrupted*
 * How it works:
   * I say for the m4.large in Ireland (eu-west-1a) I can pay 10 cents/hour, for example
-  * Cutomers come, request more resources from AWS and the price of my particular machine is going up, as demand is higher than offer
+  * Customers come, request more resources from AWS and the price of my particular machine is going up, as demand is higher than offer
   * AWS sets for my machine type (m4.large) in chosen AZ (**eu-west-1a**) 11 cents/hour
   * If I won't pay this charge the machine *will be interrupted* and *terminated* and will be given to another customer who will be able to that charge
   * If I won't pay this charge the machine will show 2-minutes warning via Metaserver, which should be noticed by our application running on that machine
